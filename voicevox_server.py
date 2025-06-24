@@ -15,7 +15,7 @@ def vvox_tts(text):
     # 音声化する文言と話者を指定(3で標準ずんだもんになる)
     params = (
         ('text', text),
-        ('speaker', 28),
+        ('speaker', 3),
     )
     
     # 音声合成用のクエリ作成
